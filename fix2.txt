@@ -1,0 +1,35 @@
+cd lab1 
+git init  
+git status 
+git add README.md 
+git commit –m “Initial commit ” 
+git checkout –b feature1 
+git status 
+git add README.md 
+git commit –m “add dog and change moose to mouse” 
+git switch master 
+git status 
+git add README.md 
+git commit –m “ change moose to mahmut” 
+git merge feature1 
+git add README.md 
+git commit 
+git tag extinct 
+git reset –-hard HEAD^ 
+git branch feature2
+git status
+git add README.md
+git commit -m "switch all first letters to capital letters"
+git switch feature2
+git status
+git add fix1.txt
+git commit -m "add fix1.txt"
+git status
+git add fix2.txt
+git commit -m "add fix2.txt"
+git switch master
+git cherry-pick 42a9
+git remote add origin https://github.com/LummIIi/lab1.git
+git branch -M main
+git push -u origin main
+
